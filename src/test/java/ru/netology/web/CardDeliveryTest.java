@@ -26,7 +26,7 @@ public class CardDeliveryTest {
     void shouldValidFormCardDelivery() {
 
 
-        $("[data-test-id='city'] .input__control").setValue("Москва");
+        $("[data-test-id='city'] .input__control").setValue("");
         $("[data-test-id='date'] .input__control").setValue(dateDelivery);
         $("[data-test-id='name'] .input__control").setValue("Кузьмин Семен");
         $("[data-test-id='phone'] .input__control").setValue("+79111133030");
